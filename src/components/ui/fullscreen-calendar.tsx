@@ -101,14 +101,14 @@ export function FullScreenCalendar({
       </div>
       
       <div className="flex flex-auto flex-col relative z-20">
-        <div className="grid grid-cols-7 border-b text-center text-xs font-semibold text-white">
-          <div className="border-r py-2">Mon</div>
-          <div className="border-r py-2">Tue</div>
-          <div className="border-r py-2">Wed</div>
-          <div className="border-r py-2">Thu</div>
-          <div className="border-r py-2">Fri</div>
-          <div className="border-r py-2">Sat</div>
-          <div className="py-2">Sun</div>
+        <div className="grid grid-cols-7 text-center text-xs font-semibold text-white bg-gradient-to-r from-[#232f3e] to-[#0073bb] border-b border-white/10">
+          <div className="border-r border-white/10 py-3">Mon</div>
+          <div className="border-r border-white/10 py-3">Tue</div>
+          <div className="border-r border-white/10 py-3">Wed</div>
+          <div className="border-r border-white/10 py-3">Thu</div>
+          <div className="border-r border-white/10 py-3">Fri</div>
+          <div className="border-r border-white/10 py-3">Sat</div>
+          <div className="py-3">Sun</div>
         </div>
 
         <div className="flex-1">
@@ -166,10 +166,10 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#fff3b0] to-[#ffeb80] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 1: Day 1</span>
-                    <span className="bg-gradient-to-r from-[#fff3b0] to-[#ffeb80] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 1: Day 2</span>
-                    <span className="bg-gradient-to-r from-[#fff3b0] to-[#ffeb80] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 1: Day 3</span>
-                    <span className="bg-gradient-to-r from-[#fff3b0] to-[#ffeb80] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 1: Day 4</span>
+                    <span className="bg-gradient-to-r from-[#ffed4a] to-[#ffd700] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 1: Day 1</span>
+                    <span className="bg-gradient-to-r from-[#ffed4a] to-[#ffd700] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 1: Day 2</span>
+                    <span className="bg-gradient-to-r from-[#ffed4a] to-[#ffd700] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 1: Day 3</span>
+                    <span className="bg-gradient-to-r from-[#ffed4a] to-[#ffd700] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 1: Day 4</span>
                   </div>
                 </div>
               </div>
@@ -208,9 +208,9 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 2: Day 1</span>
-                    <span className="bg-gradient-to-r from-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 2: Day 2</span>
-                    <span className="bg-gradient-to-r from-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 2: Day 3</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 1</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 2</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 3</span>
                   </div>
                 </div>
               </div>
@@ -249,10 +249,10 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#90f09b] via-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 2: Day 4</span>
-                    <span className="bg-gradient-to-r from-[#90f09b] via-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 2: Day 5</span>
-                    <span className="bg-gradient-to-r from-[#90f09b] via-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 2: Day 6</span>
-                    <span className="bg-gradient-to-r from-[#90f09b] via-[#b7ebbd] to-[#90f09b] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 2: Day 7</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 4</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 5</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 6</span>
+                    <span className="bg-gradient-to-r from-[#4ade80] to-[#22c55e] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 2: Day 7</span>
                   </div>
                 </div>
               </div>
@@ -291,9 +291,9 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 3: Day 1</span>
-                    <span className="bg-gradient-to-r from-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 3: Day 2</span>
-                    <span className="bg-gradient-to-r from-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 3: Day 3</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 1</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 2</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 3</span>
                   </div>
                 </div>
               </div>
@@ -332,13 +332,13 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 4</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 5</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 6</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 7</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 8</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 9</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 10</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 4</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 5</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 6</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 7</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 8</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 9</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 10</span>
                   </div>
                 </div>
               </div>
@@ -377,11 +377,11 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 11</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 12</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 13</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 14</span>
-                    <span className="bg-gradient-to-r from-[#80d4ff] via-[#cae9ff] to-[#80d4ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 3: Day 15</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 11</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 12</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 13</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 14</span>
+                    <span className="bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 3: Day 15</span>
                   </div>
                 </div>
               </div>
@@ -420,8 +420,8 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#f3d5f9] to-[#f0a3ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 4: Day 1</span>
-                    <span className="bg-gradient-to-r from-[#f3d5f9] to-[#f0a3ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_0.5px_0px_rgba(0,0,0,0.3)]">Domain 4: Day 2</span>
+                    <span className="bg-gradient-to-r from-[#e879f9] to-[#d946ef] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 4: Day 1</span>
+                    <span className="bg-gradient-to-r from-[#e879f9] to-[#d946ef] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 4: Day 2</span>
                   </div>
                 </div>
               </div>
@@ -460,8 +460,8 @@ export function FullScreenCalendar({
                   }}
                 >
                   <div className="flex w-full justify-around px-1">
-                    <span className="bg-gradient-to-r from-[#f0a3ff] via-[#f3d5f9] to-[#f0a3ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 4: Day 3</span>
-                    <span className="bg-gradient-to-r from-[#f0a3ff] via-[#f3d5f9] to-[#f0a3ff] text-transparent bg-clip-text font-['Tangerine'] font-bold tracking-wide whitespace-nowrap px-0.5 text-[20px] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.2)]">Domain 4: Day 4</span>
+                    <span className="bg-gradient-to-r from-[#e879f9] to-[#d946ef] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 4: Day 3</span>
+                    <span className="bg-gradient-to-r from-[#e879f9] to-[#d946ef] text-transparent bg-clip-text font-['Tangerine'] font-extrabold tracking-wider whitespace-nowrap px-0.5 text-[22px] antialiased subpixel-antialiased text-rendering-optimizeLegibility drop-shadow-[0_1px_0px_rgba(0,0,0,0.3)] [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Domain 4: Day 4</span>
                   </div>
                       </div>
                     </div>
